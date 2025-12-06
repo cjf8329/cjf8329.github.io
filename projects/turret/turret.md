@@ -142,6 +142,7 @@ A reliable turret that smoothly rotates left/right on IR interrupt. Demonstrates
 
 ## Future Improvements
 
+- Design a mount for a kicker + flywheel system, enable in code
 - Replace IR with ToF or UWB for continuous position tracking indoors and outdoors
 - Add PCB for cleaner wiring  
 - Use microstepping for finer angle resolution  
