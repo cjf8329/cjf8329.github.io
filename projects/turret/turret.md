@@ -38,20 +38,24 @@ do this
 - Simple state machine: `IDLE → ROTATE → IDLE`  
 - SWD debugging during tuning  
 
-<img width="456" height="423" alt="image" src="https://github.com/user-attachments/assets/3a3bd387-1fe1-40be-a7ec-4f59f1abe512" /> 
-<img width="515" height="423" alt="image" src="https://github.com/user-attachments/assets/22e72ade-02b9-46eb-9889-bc6bd675ca22" />
-
-### **Mechanical System**
-- Turret inner-diameter ≈ 9.75 inches  
-- Belt wraps around outer circumference  
-- Stepper mounted with custom bracket  
-- GT2 system ensures encoder-free accuracy
 
 ### **Electronics**
+<img width="1132" height="920" alt="image" src="https://github.com/user-attachments/assets/413e2fd2-7e34-4f9f-b92f-81bd5c38b508" />
+<img width="601" height="365" alt="image" src="https://github.com/user-attachments/assets/7e85f962-3a5c-4ff3-9411-2e35dae73c3a" />
+
 - Current limit tuned on A4988 (stable torque, reduced motor heating)  
 - Proper grounding → solved intermittent MCU resets  
 - MP1584 buck converter powers the MCU and IR system cleanly  
 - Each IR zone sensor setup with pull-ups and interrupt/event handling  
+
+### **Mechanical System**
+<img width="456" height="423" alt="image" src="https://github.com/user-attachments/assets/3a3bd387-1fe1-40be-a7ec-4f59f1abe512" /> 
+<img width="515" height="423" alt="image" src="https://github.com/user-attachments/assets/22e72ade-02b9-46eb-9889-bc6bd675ca22" />
+
+- Turret inner-diameter ≈ 9.75 inches  
+- Belt wraps around outer circumference  
+- Stepper mounted with custom bracket  
+- GT2 system ensures encoder-free accuracy
 
 ---
 
@@ -131,7 +135,7 @@ A reliable turret that smoothly rotates left/right on IR interrupt. Demonstrates
 
 ---
 
-## Lessons Learned
+## Takeaways
 
 - Mechanical rigidity matters as much as firmware  
 - IR sensing is limited; zone detection is more robust than analog readings  
