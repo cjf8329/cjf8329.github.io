@@ -1,1 +1,71 @@
-# cjf8329.github.io
+# Christopher Fonseca — Embedded Systems & Robotics Portfolio
+
+Welcome! I'm an engineering student focused on **embedded systems**, **firmware**, **robotics**, and **mechatronic design**.  
+I build real hardware, write low-level code, and enjoy solving physical + computational problems.
+
+---
+
+## Skills & Technical Focus
+
+**Embedded & Firmware:**  
+- STM32 (HAL + bare-metal C), ARM Cortex-M  
+- Timers, interrupts, peripherals, drivers  
+- UART/I2C/SPI communication  
+- Real-time control, state machines  
+
+**Electronics:**  
+- Embedded power design, analog/digital sensor integration 
+- Schematics, debugging, oscilloscopes  
+
+**Software:**  
+- C/C++, Python  
+- Git, Linux, scripting
+
+**Mechatronics & Hardware:**  
+- Stepper motors, motor drivers 
+- GT2 belt systems, mechanical actuation  
+- 3D printing, prototyping 
+- Fusion 360 CAD & CAM
+
+---
+
+## Featured Project
+
+### **Smart Basketball Return Turret**  
+**A microcontroller-driven, infrared-based ball return system that rotates automatically toward the shooter.**
+
+- Embedded C firmware on STM32  
+- Stepper motor control 
+- IR directional detection  
+- Custom mechanical + electrical design  
+- Real-world testing and iteration
+
+**[View Full Project →](projects/turret.md)**
+
+---
+
+## Projects
+
+Here are additional engineering projects I've worked on. Each page includes architecture diagrams, code, hardware notes, and lessons learned.
+
+- **Project Name #1** — short description  
+  [View Project](projects/project1.md)
+
+- **Project Name #2** — short description  
+  [View Project](projects/project2.md)
+
+- **Project Name #3** — short description  
+  [View Project](projects/project3.md)
+
+
+---
+
+## Resume  
+**[Download Resume (PDF)](your-resume.pdf)**
+
+---
+
+## Contact  
+- **Email:** cjf8329@nyu.edu
+- **GitHub:** https://github.com/cjf8329  
+- **LinkedIn:** https://www.linkedin.com/in/christopherfonseca/
