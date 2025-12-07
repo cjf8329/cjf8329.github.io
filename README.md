@@ -1,6 +1,6 @@
-# Christopher Fonseca — Embedded Systems & Robotics Portfolio
+# Christopher Fonseca — Embedded Systems & Computer Engineering Portfolio
 
-Welcome! I'm an engineering student focused on **embedded systems**, **firmware**, **robotics**, and **mechatronic design**.  
+Welcome! I'm a computer engineering student focused on **embedded systems**, **firmware**, **robotics**, and **mechatronic design**.  
 I build real hardware, write low-level code, and enjoy solving physical + computational problems.
 
 ---
@@ -46,10 +46,10 @@ I build real hardware, write low-level code, and enjoy solving physical + comput
 
 ## Projects
 
-Here are additional engineering projects I've worked on. Each page includes architecture diagrams, code, hardware notes, and lessons learned.
+Here are additional engineering projects I've worked on. Each page includes architecture diagrams, code, hardware notes, and key takeaways.
 
-- **Project Name #1** — short description  
-  [View Project](projects/project1.md)
+- **TouchLock** — Fingerprint-enabled IoT Door Lock  
+  [View Project](projects/TouchLock.md)
 
 - **Project Name #2** — short description  
   [View Project](projects/project2.md)
