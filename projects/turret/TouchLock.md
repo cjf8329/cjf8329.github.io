@@ -33,7 +33,8 @@ Built and tested on standard Raspberry Pi models (any Pi with GPIO and UART supp
 
 ### **Block Diagram**
 
-*(Insert block diagram image here)*
+<img width="1267" height="558" alt="image" src="https://github.com/user-attachments/assets/b351ef4e-03c1-46b9-baf5-7dd8798b1c42" />
+
 
 ---
 
