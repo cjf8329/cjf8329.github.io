@@ -30,7 +30,7 @@ do this
 
 ---
 
-## How the Final Version Works
+## How It Works
 
 ### **Firmware (Embedded C on STM32)**
 - Timer-driven step pulses for consistent rotation
@@ -40,8 +40,13 @@ do this
 
 
 ### **Electronics**
-<img width="1132" height="920" alt="image" src="https://github.com/user-attachments/assets/413e2fd2-7e34-4f9f-b92f-81bd5c38b508" />
-<img width="601" height="365" alt="image" src="https://github.com/user-attachments/assets/7e85f962-3a5c-4ff3-9411-2e35dae73c3a" />
+| ![Turret Schematic]() |
+|:------------------------------:|
+| **Figure 1.** Turret Schematic |
+
+| ![Turret Schematic](https://github.com/user-attachments/assets/7e85f962-3a5c-4ff3-9411-2e35dae73c3a) |
+|:------------------------------:|
+| **Figure 2.** IR Modulation Schematic |
 
 - Current limit tuned on A4988 (stable torque, reduced motor heating)  
 - Proper grounding → solved intermittent MCU resets  
@@ -59,7 +64,7 @@ do this
 
 ---
 
-## Design Journey (3 Versions)
+## Design Iterations
 
 ### **Version 1 **
 
@@ -95,7 +100,7 @@ Redesigned before completion once it was clear this design would not work.
 
 **Outcome:**  
 System almost worked, but when the GT2 belt was added, the tension pushed the whole turret assembly towards the motor, preventing proper movement.
-Another redesign was merited.
+Another redesign was needed.
 
 ---
 
