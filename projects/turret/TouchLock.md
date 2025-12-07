@@ -118,15 +118,6 @@ The hardware feedback layer ensures users always know the system state.
 
 ---
 
-## Mechanical System
-
-*(Insert photos of the latch and physical mounting here)*
-
-- Demo mechanism uses a simple latch actuated by a hobby servo  
-- Built for proof-of-concept in the class environment
-
----
-
 ## Key Challenges & Solutions
 
 | Challenge | Solution |
