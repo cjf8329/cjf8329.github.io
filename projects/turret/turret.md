@@ -40,11 +40,11 @@ do this
 
 
 ### **Electronics**
-| ![Turret Schematic]() |
+| ![Turret Schematic](https://github.com/user-attachments/assets/f5285817-24a9-4f3d-bb43-e2254af4fe85) |
 |:------------------------------:|
 | **Figure 1.** Turret Schematic |
 
-| ![Turret Schematic](https://github.com/user-attachments/assets/7e85f962-3a5c-4ff3-9411-2e35dae73c3a) |
+| ![Turret Schematic](https://github.com/user-attachments/assets/0af7e57e-3281-4f59-aa00-c0d7bbe3360d) |
 |:------------------------------:|
 | **Figure 2.** IR Modulation Schematic |
 
