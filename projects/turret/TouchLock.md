@@ -153,3 +153,9 @@ The hardware feedback layer ensures users always know the system state.
 - Replace latch with a stronger mechanical actuator
 - Add second factor (PIN pad, smartphone unlock)
 - Cut a custom PCB to replace loose wiring
+
+---
+
+## Source Code
+Full implementation is available on GitHub:  
+**https://github.com/cjf8329/TouchLock**
