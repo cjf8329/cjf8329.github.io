@@ -13,7 +13,7 @@ The prototype demonstrates a complete access-control flow:
 - If matched:
   - **Servo latch** unlocks  
   - **Green LED** turns on  
-  - Text-to-speech: *“Access granted, <name>”*  
+  - Text-to-speech: *“Access granted, \<name>”*  
   - Email log is prepared
 
 - If unmatched:
@@ -26,7 +26,7 @@ Built and tested on standard Raspberry Pi models (any Pi with GPIO and UART supp
 
 ---
 
-## System Overview (Final Architecture)
+## System Overview
 
 ### **Block Diagram**
 
@@ -37,7 +37,7 @@ Built and tested on standard Raspberry Pi models (any Pi with GPIO and UART supp
 ## Core Components
 - **Compute:** Raspberry Pi (any model with GPIO + UART)  
 - **Biometric Sensor:** Optical fingerprint sensor using `adafruit_fingerprint`  
-- **Actuator:** Servo driving a **simple demonstration latch**  
+- **Actuator:** Servo driving a simple demonstration latch  
 - **Camera:** Pi Camera module for intruder snapshots  
 - **Indicators:** Red/Green LEDs for immediate feedback  
 - **Notifications:** Gmail SMTP email alerts with optional photo attachment  
@@ -45,7 +45,7 @@ Built and tested on standard Raspberry Pi models (any Pi with GPIO and UART supp
   - Python 3  
   - `adafruit_fingerprint`, `serial`, `RPi.GPIO`, `picamera`, `pyttsx3`, `smtplib`, `email.mime`, `pickle`
 
-Project completed for an **intro engineering class** (two-person team; **I designed and implemented the majority of the system**, including firmware, hardware integration, and full software stack).
+Project completed for an **intro engineering class** (two-person team; I designed and implemented the electronics and firmware).
 
 ---
 
@@ -82,9 +82,8 @@ Wraps the Adafruit fingerprint library into a higher-level sensor interface.
 
 **Features:**
 - Handles template capture & matching  
-- Stores up to **127 enrolled users**  
-- Persists names using a `pickle` database  
-- Auto-corrects or initializes name storage on startup  
+- Stores up to 127 enrolled users  
+- Names stored in persistent database
 - Provides both verbose (interactive) and silent (production) capture modes  
 - Includes a full setup driver for:
   - Enrollment  
@@ -107,8 +106,7 @@ Modular email sender using Gmail SMTP (SSL):
 The hardware feedback layer ensures users always know the system state.
 
 #### **Servo Module (`servo_module.py`)**
-- GPIO-based PWM  
-- Converts angles → servo duty cycles  
+- GPIO-based PWM
 - Moves to “open” position temporarily  
 - Auto-resets to a defined **closed latch** position
 
@@ -122,47 +120,8 @@ The hardware feedback layer ensures users always know the system state.
 
 *(Insert photos of the latch and physical mounting here)*
 
-- Demo mechanism uses a **simple hinged latch** actuated by a hobby servo  
-- Built for proof-of-concept in the class environment  
-- 3D-printed and/or laser-cut parts used for clean mounting and repeatable motion  
-
----
-
-## Design & Iteration History
-
-### **Version 1 — Fingerprint Matching Prototype**
-- Verified UART communication  
-- Achieved reliable template enrollment and matching  
-- No actuation, camera, or email yet  
-- Used verbose terminal debugging
-
-**Limitations:**  
-- No feedback system  
-- No event logging  
-- No physical lock mechanism  
-
----
-
-### **Version 2 — Integrated Access Control**
-- Added servo for latch motion  
-- Added red/green LEDs  
-- Added text-to-speech  
-- Created `TouchLock` class to unify logic
-
-**Outcome:**  
-Functional local-only access control system.
-
----
-
-### **Version 3 — Final Demo With Intruder Logging**
-- Added Pi Camera  
-- Added email alerts + photo attachment  
-- Improved LED timing + TTS flow  
-- Cleaned up module interfaces and error handling  
-- Added demo video and security camera screenshot
-
-**Outcome:**  
-A fully integrated biometric access system meeting all project requirements and going beyond the scope of the class.
+- Demo mechanism uses a simple latch actuated by a hobby servo  
+- Built for proof-of-concept in the class environment
 
 ---
 
@@ -182,24 +141,21 @@ A fully integrated biometric access system meeting all project requirements and 
 - Fully working biometric access system  
 - Real-time lock/unlock behavior with servo latch  
 - Logged security events with image evidence  
-- Modular, well-documented Python codebase  
+- Modular Python codebase  
 - Clear pathway to expand into a full smart lock product
 
 ---
 
 ## Takeaways
-- Biometric systems require **robust feedback** to feel seamless  
+- Biometric systems require robust feedback to feel seamless  
 - Hardware abstraction makes debugging dramatically easier  
-- Persistent identity storage (names + templates) is crucial in real deployments  
-- Even simple latch mechanisms benefit from consistent servo calibration  
-- Adding a camera + email transforms a “demo” into a **real security device**
+- Even simple latch mechanisms benefit from consistent servo calibration
 
 ---
 
 ## Future Improvements
-- Move from Gmail to a more secure, token-based email API  
 - Replace PiCamera with modern `libcamera` pipeline  
 - Add web dashboard for logs, user management, and remote unlock  
-- Replace latch with a stronger mechanical actuator  
-- Add second factor (PIN pad, smartphone unlock)  
-- Build a custom PCB to replace loose wiring  
+- Replace latch with a stronger mechanical actuator
+- Add second factor (PIN pad, smartphone unlock)
+- Cut a custom PCB to replace loose wiring
