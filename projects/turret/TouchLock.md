@@ -5,21 +5,23 @@
 
 ## Demo — Final Working Prototype
 
-*(Insert video or GIF here — e.g., demo.mp4)*
+<img width="533" height="518" alt="image" src="https://github.com/user-attachments/assets/1417cb92-06f7-4140-b30d-767effca8f64" />
 
-The prototype demonstrates a complete access-control flow:
+
+
+The prototype has a complete access-control flow:
 
 - A user places their finger on the **optical fingerprint sensor**  
 - If matched:
-  - **Servo latch** unlocks  
-  - **Green LED** turns on  
+  - Servo latch unlocks  
+  - Green LED turns on  
   - Text-to-speech: *“Access granted, \<name>”*  
-  - Email log is prepared
+  - Email log is prepared and sent
 
 - If unmatched:
-  - **Pi Camera** captures a photo of the intruder  
+  - Pi Camera captures a photo of the intruder  
   - Email alert is sent with the image attached  
-  - **Red LED** turns on  
+  - Red LED turns on  
   - Text-to-speech: *“Access denied”*  
 
 Built and tested on standard Raspberry Pi models (any Pi with GPIO and UART support works; e.g., Pi 4, Pi 3B+, Pi Zero W).
