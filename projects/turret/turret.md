@@ -18,7 +18,8 @@ This is the working prototype after three major design iterations.
 
 ### **Block Diagram**
 
-do this
+<img width="1012" height="499" alt="image" src="https://github.com/user-attachments/assets/b248728c-a091-422d-9568-0f6ef44ae4da" />
+
 
 ## **Core Components**
 - **Microcontroller:** STM32F103 ("Black Pill")  
