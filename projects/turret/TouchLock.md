@@ -4,7 +4,7 @@
 [**→ View the GitHub Repository**](https://github.com/cjf8329/TouchLock)
 ---
 
-## Demo — Final Working Prototype
+## Final Working Prototype
 
 <img width="533" height="518" alt="image" src="https://github.com/user-attachments/assets/1417cb92-06f7-4140-b30d-767effca8f64" />
 
