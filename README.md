@@ -38,7 +38,7 @@ I build real hardware, write low-level code, and enjoy solving physical + comput
 - Stepper motor control 
 - IR directional detection  
 - Custom mechanical + electrical design  
-- Real-world testing and iteration
+- Testing and iteration
 
 **[View Full Project →](projects/turret.md)**
 
