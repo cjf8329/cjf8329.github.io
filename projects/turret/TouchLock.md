@@ -1,6 +1,7 @@
 # TouchLock – Biometric Smart Lock  
 *A Raspberry Pi–based access control system that uses fingerprint recognition, servo actuation, and email alerts for secure entry.*
 
+[**→ View the GitHub Repository**](https://github.com/cjf8329/TouchLock)
 ---
 
 ## Demo — Final Working Prototype
