@@ -40,7 +40,7 @@ I build real hardware, write low-level code, and enjoy solving physical + comput
 - Custom mechanical + electrical design  
 - Testing and iteration
 
-**[View Full Project →](projects/turret.md)**
+**[View Full Project →](projects/turret/turret.md)**
 
 ---
 
