@@ -46,7 +46,7 @@ I build real hardware, write low-level code, and enjoy solving physical + comput
 
 ## Projects
 
-Here are additional engineering projects I've worked on. Each page includes architecture diagrams, code, hardware notes, and key takeaways.
+Here are some additional projects I've worked on. Each page includes architecture diagrams, code, hardware notes, and key takeaways.
 
 - **TouchLock** — Fingerprint-enabled IoT Door Lock  
   [View Project](projects/TouchLock.md)
