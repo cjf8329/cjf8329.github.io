@@ -105,9 +105,11 @@ Another redesign was needed.
 
 ---
 
-<img width="891" height="1029" alt="image" src="https://github.com/user-attachments/assets/1d5b98fb-5f51-46c3-8891-08cfb626d269" />
+
 
 ### **Version 3 —  Working Prototype**
+<img width="891" height="1029" alt="image" src="https://github.com/user-attachments/assets/1d5b98fb-5f51-46c3-8891-08cfb626d269" />
+
 **Major Fixes:**
 - Full remount of stepper → reduced wobble
 - Turntable bearing fixed alignment issue
