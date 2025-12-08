@@ -42,12 +42,12 @@ This is the working prototype after three major design iterations.
 
 ### **Electronics**
 | ![Turret Schematic](https://github.com/user-attachments/assets/f5285817-24a9-4f3d-bb43-e2254af4fe85) |
-|:------------------------------:|
-| **Figure 1.** Turret Schematic |
+|:---------------------------------------------------------------:|
+| **Figure 1. Turret Schematic** |
 
-| ![Turret Schematic](https://github.com/user-attachments/assets/0af7e57e-3281-4f59-aa00-c0d7bbe3360d) |
-|:------------------------------:|
-| **Figure 2.** IR Modulation Schematic |
+| ![IR Modulation Schematic](https://github.com/user-attachments/assets/0af7e57e-3281-4f59-aa00-c0d7bbe3360d) |
+|:---------------------------------------------------------------:|
+| **Figure 2. IR Modulation Schematic** |
 
 - Current limit tuned on A4988 (stable torque, reduced motor heating)  
 - Proper grounding → solved intermittent MCU resets  
