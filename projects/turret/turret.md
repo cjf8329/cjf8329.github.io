@@ -67,7 +67,7 @@ This is the working prototype after three major design iterations.
 
 ## Design Iterations
 
-### **Version 1 **
+### **Version 1**
 
 <img width="550" height="500" alt="image" src="https://github.com/user-attachments/assets/932e4dbd-b8c2-45f4-83d4-0e925a3877b4" />
 
