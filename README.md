@@ -49,10 +49,10 @@ I build real hardware, write low-level code, and enjoy solving physical + comput
 Here are some additional projects I've worked on. Each page includes architecture diagrams, code, and hardware notes.
 
 - **TouchLock** — Fingerprint-enabled IoT Door Lock  
-  [View Project](projects/TouchLock.md)
+  [View Project](projects/TouchLock/TouchLock.md)
 
 - **Thermal Object Detection & Logging System** — Thermal imaging system with Google Sheets logging
-  [View Project](projects/IR_detection.md)
+  [View Project](projects/IR/IR_detection.md)
 
 
 ---
