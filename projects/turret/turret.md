@@ -72,7 +72,7 @@ This is the working prototype after three major design iterations.
 ### **Version 1**
 
 <img width="550" height="500" alt="image" src="https://github.com/user-attachments/assets/932e4dbd-b8c2-45f4-83d4-0e925a3877b4" />
-
+<img height="500" alt="image" src="https://github.com/user-attachments/assets/20e3f5e9-86dc-40fd-a79c-7fe8e9ffcdc8" />
 
 **Problems:**
 - Flimsy design, 1/16 aluminum too thin
@@ -86,6 +86,7 @@ Redesigned before completion once it was clear this design would not work.
 
 ### **Version 2 — Improved Structure**
 <img width="550" height="500" alt="image" src="https://github.com/user-attachments/assets/2807e3b7-4de7-40fc-88d3-df5bf1c80ff6" />
+<img height="500" alt="image" src="https://github.com/user-attachments/assets/93f5fa9e-514c-4fa5-88f6-1c6a2681b880" />
 
 **Changes:**  
 - Assembled from plywood
@@ -111,6 +112,9 @@ Another redesign was needed.
 
 ### **Version 3 —  Working Prototype**
 <img width="891" height="1029" alt="image" src="https://github.com/user-attachments/assets/1d5b98fb-5f51-46c3-8891-08cfb626d269" />
+<img height="600" alt="image" src="https://github.com/user-attachments/assets/157f59b6-32b4-41bc-aa17-f97752997e4d" />
+<img height="600" alt="image" src="https://github.com/user-attachments/assets/bce533a5-d35c-4e0f-9493-0af5d65a0ef3" />
+
 
 **Major Fixes:**
 - Full remount of stepper → reduced wobble
