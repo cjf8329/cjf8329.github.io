@@ -5,7 +5,9 @@
 
 ## Demo — Final Working Prototype
 
-*(Insert video or GIF here)*
+[<img width="493" height="888" alt="image" src="https://github.com/user-attachments/assets/91dfaaf9-4c6d-497e-ad6d-239d5b396766" />](https://youtube.com/shorts/0nvOkCNzvOQ)
+
+
 
 The final version of this system detects whether the shooter is positioned to the **left** or **right** of the hoop and automatically rotates the turret toward them.  
 It uses an **STM32 microcontroller**, **stepper motor control**, and a **GT2 belt-driven turret** mounted on a plywood frame with a turntable bearing.
