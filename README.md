@@ -1,4 +1,4 @@
-# Christopher Fonseca — Embedded Systems & Computer Engineering Portfolio
+# Embedded Systems & Computer Engineering Portfolio
 
 Welcome! I'm a computer engineering student focused on **embedded systems**, **firmware**, **robotics**, and **mechatronic design**.  
 I build real hardware, write low-level code, and enjoy solving physical + computational problems.
