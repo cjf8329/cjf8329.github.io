@@ -58,7 +58,7 @@ Here are some additional projects I've worked on. Each page includes architectur
 ---
 
 ## Resume  
-**[Download Resume (PDF)](your-resume.pdf)**
+**[Download Resume (PDF)](Christopher_Fonseca_Resume.pdf)**
 
 ---
 
