@@ -1,7 +1,29 @@
 # Embedded Systems & Computer Engineering Portfolio
 
-Welcome! I'm a computer engineering student focused on **embedded systems**, **firmware**, **robotics**, and **mechatronic design**.  
-I build real hardware, write low-level code, and enjoy solving physical + computational problems.
+Welcome! I’m a computer engineering student focused on **embedded systems**, **firmware development**, **robotics**, and **mechatronic design**.  
+I build hardware–software systems that combine embedded sensing, real-time computation, and practical deployment in physical environments.
+
+I will be starting my **Master’s in Computer Engineering in Fall 2026**, where I plan to further specialize in embedded systems, robotics, and intelligent edge devices.
+
+---
+
+## Featured Project
+
+### **UrbanNAV — Offline Indoor Navigation via BLE Fingerprinting**  
+*Robust indoor positioning using BLE signal fingerprints and on-device processing.*
+
+- nRF52840-based embedded BLE beacon system  
+- Zephyr RTOS firmware in Embedded C  
+- Android (Kotlin) mobile application for positioning  
+- RSSI-based fingerprinting with weighted k-NN matching  
+- 1D + 2D Kalman filtering for signal and position stabilization  
+- Fully offline indoor navigation system (no server dependency)  
+
+Early implementations used trilateration and weighted centroid methods, but both failed in real environments due to RSSI instability, multipath interference, and nonlinear signal behavior. The system was redesigned around **BLE fingerprinting**, which proved significantly more robust in practice.
+
+The final system constructs a radio map of the environment and matches live RSSI vectors against stored fingerprints to estimate position.
+
+**[View Full Project →](projects/UrbanNAV/urbannav.md)**
 
 ---
 
@@ -9,51 +31,47 @@ I build real hardware, write low-level code, and enjoy solving physical + comput
 
 **Embedded & Firmware:**  
 - STM32 (HAL + bare-metal C), ARM Cortex-M  
-- Timers, interrupts, peripherals, drivers  
-- UART/I2C/SPI communication  
-- Real-time control, state machines  
+- nRF52 (Zephyr RTOS, BLE systems)  
+- Timers, interrupts, peripherals, driver development  
+- UART / I2C / SPI communication  
+- Real-time embedded systems and state machines  
 
-**Electronics:**  
-- Embedded power design, analog/digital sensor integration 
-- Schematics, debugging, oscilloscopes  
+**Wireless & Systems:**  
+- BLE GATT architecture  
+- RSSI processing and signal filtering  
+- Sensor fusion and Kalman filtering  
+- Embedded localization systems  
 
 **Software:**  
-- C/C++, Python  
-- Git, Linux, scripting
+- C / C++, Python  
+- Android development (Kotlin)  
+- Git, Linux, scripting  
 
-**Mechatronics & Hardware:**  
-- Stepper motors, motor drivers 
-- GT2 belt systems, mechanical actuation  
-- 3D printing, prototyping 
-- Fusion 360 CAD & CAM
-
----
-
-## Featured Project
-
-### **Smart Basketball Return Turret**  
-**A microcontroller-driven, infrared-based ball return system that rotates automatically toward the shooter.**
-
-- Embedded C firmware on STM32  
-- Stepper motor control 
-- IR directional detection  
-- Custom mechanical + electrical design  
-- Testing and iteration
-
-**[View Full Project →](projects/turret/turret.md)**
+**Electronics & Mechatronics:**  
+- Sensor integration and embedded hardware debugging  
+- Motor control systems (steppers, drivers)  
+- Mechanical prototyping (3D printing, CAD with Fusion 360)  
+- Actuated systems and embedded electromechanical design  
 
 ---
 
 ## Other Projects
 
-Here are some additional projects I've worked on. Each page includes architecture diagrams, code, and hardware notes.
+### Smart Basketball Return Turret  
+Infrared-based automated ball return system with embedded motor control and directional sensing.  
+[View Project](projects/turret/turret.md)
 
-- **TouchLock** — Fingerprint-enabled IoT Door Lock  
-  [View Project](projects/TouchLock/TouchLock.md)
+---
 
-- **Thermal Object Detection & Logging System** — Thermal imaging system with Google Sheets logging
-  [View Project](projects/IR/IR_detection.md)
+### TouchLock  
+Fingerprint-enabled IoT door lock system with embedded authentication and wireless control.  
+[View Project](projects/TouchLock/TouchLock.md)
 
+---
+
+### Thermal Object Detection & Logging System  
+Thermal imaging-based detection system with automated data logging to Google Sheets.  
+[View Project](projects/IR/IR_detection.md)
 
 ---
 
@@ -63,6 +81,6 @@ Here are some additional projects I've worked on. Each page includes architectur
 ---
 
 ## Contact  
-- **Email:** cjf8329@nyu.edu
+- **Email:** cjf8329@nyu.edu  
 - **GitHub:** https://github.com/cjf8329  
 - **LinkedIn:** https://www.linkedin.com/in/christopherfonseca/
