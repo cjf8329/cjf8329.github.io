@@ -1,9 +1,7 @@
 # Embedded Systems & Computer Engineering Portfolio
 
-Welcome! I’m a computer engineering student focused on **embedded systems**, **firmware development**, **robotics**, and **mechatronic design**.  
+Welcome! I’m a master's student in computer engineering focused on **embedded systems**, **firmware development**, and **robotics**.  
 I build hardware–software systems that combine embedded sensing, real-time computation, and practical deployment in physical environments.
-
-I will be starting my **Master’s in Computer Engineering in Fall 2026**, where I plan to further specialize in embedded systems, robotics, and intelligent edge devices.
 
 ---
 
