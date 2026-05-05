@@ -30,6 +30,14 @@ The final system builds a radio map of the environment and matches live signal r
 
 ---
 
+## Demo Video
+
+<a href="https://drive.google.com/file/d/1uUxg8vv3n-GY_ZXYeT1t1EdM1fFgEjbY/view?usp=sharing" target="_blank">
+  <img width="2559" height="1439" alt="image" src="https://github.com/user-attachments/assets/f8560b9d-ceee-4a0a-89bc-b3275b84aabe" />
+</a>
+
+---
+
 ## Why Fingerprinting Won
 
 Traditional geometry-based methods assume clean distance estimates. In reality:
