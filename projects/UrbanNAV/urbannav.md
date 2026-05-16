@@ -46,9 +46,7 @@ Traditional geometry-based methods assume clean distance estimates. In reality:
 - Signals fluctuate based on obstacles, orientation, and reflections
 - Small RSSI errors → large position errors
 
-Fingerprinting avoids this entirely:
-
-> Instead of estimating distance, we match patterns.
+Fingerprinting avoids this entirely; Instead of estimating distance, we match patterns.
 
 This made it the most reliable approach in testing, especially indoors.
 
