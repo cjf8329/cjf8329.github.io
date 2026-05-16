@@ -182,8 +182,7 @@ The system provides:
 - Sensor fusion (IMU + BLE)  
 - Crowdsourced fingerprint updates  
 - Automatic calibration  
-- Floor detection via barometer  
-- Transition to hybrid (fingerprinting + model-based)  
+- Floor detection via barometer
 
 ---
 
