@@ -166,9 +166,7 @@ Without this, the UI jittered heavily.
 
 ## Value Proposition
 
-UrbanNAV demonstrates that:
-
-> In real indoor environments, **data-driven localization beats geometry-based methods**.
+UrbanNAV demonstrates that in real indoor environments, **data-driven localization beats geometry-based methods**.
 
 The system provides:
 - Infrastructure-light deployment  
